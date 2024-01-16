@@ -3,6 +3,12 @@
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)用のカスタムノードです。
 - プリセットから選択したサイズの幅と高さを出力するノードを追加します。
 
+## インストール手順
+```
+cd <ComfyUIがあるディレクトリ>/custom_nodes
+git clone https://github.com/nkchocoai/ComfyUI-SizeFromPresets.git
+```
+
 ## 追加されるノード
 ### SizeFromPresets (SD1.5)
 - SD1.5用の画像サイズのプリセットを選択できます。

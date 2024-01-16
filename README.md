@@ -5,6 +5,12 @@
 - Custom node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
 - Add a node that outputs width and height of the size selected from the preset.
 
+## Installation
+```
+cd <ComfyUI directory>/custom_nodes
+git clone https://github.com/nkchocoai/ComfyUI-SizeFromPresets.git
+```
+
 ## Nodes
 ### SizeFromPresets (SD1.5)
 - Select image size presets for SD1.5.
