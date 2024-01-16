@@ -4,7 +4,7 @@ import os
 import folder_paths
 
 custom_nodes_dir = folder_paths.get_folder_paths("custom_nodes")[0]
-presets_dir = os.path.join(custom_nodes_dir, "ComfyUI-SizeFromPreset", "presets")
+presets_dir = os.path.join(custom_nodes_dir, "ComfyUI-SizeFromPresets", "presets")
 
 def load_size_presets_input(file_name,digit):
     with open(os.path.join(presets_dir, file_name),'r') as f:
