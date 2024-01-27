@@ -10,12 +10,22 @@ git clone https://github.com/nkchocoai/ComfyUI-SizeFromPresets.git
 ```
 
 ## 追加されるノード
-### SizeFromPresets (SD1.5)
+### Size From Presets (SD1.5)
 - SD1.5用の画像サイズのプリセットを選択できます。
 - 選択したサイズの幅と高さを出力します。
 - プリセットは [presets/sd15.csv](presets/sd15.csv) から設定できます。
 
-### SizeFromPresets (SDXL)
+### Size From Presets (SDXL)
 - SDXL用の画像サイズのプリセットを選択できます。
 - 選択したサイズの幅と高さを出力します。
+- プリセットは [presets/sdxl.csv](presets/sdxl.csv) から設定できます。
+
+### Empty Latent Image From Presets (SD1.5)
+- SD1.5用の画像サイズのプリセットを選択できます。
+- 選択したサイズの空のLatent Imageと幅と高さを出力します。
+- プリセットは [presets/sd15.csv](presets/sd15.csv) から設定できます。
+
+### Empty Latent Image From Presets (SDXL)
+- SDXL用の画像サイズのプリセットを選択できます。
+- 選択したサイズの空のLatent Imageと幅と高さを出力します。
 - プリセットは [presets/sdxl.csv](presets/sdxl.csv) から設定できます。

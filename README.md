@@ -3,7 +3,7 @@
 日本語版READMEは[こちら](README.jp.md)。
 
 - Custom node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI).
-- Add a node that outputs width and height of the size selected from the preset.
+- Add nodes that outputs width and height of the size selected from the preset.
 
 ## Installation
 ```
@@ -12,12 +12,22 @@ git clone https://github.com/nkchocoai/ComfyUI-SizeFromPresets.git
 ```
 
 ## Nodes
-### SizeFromPresets (SD1.5)
+### Size From Presets (SD1.5)
 - Select image size presets for SD1.5.
-- The width and height of the selected size will be output.
+- Output width and height of the selected preset.
 - Presets can be set from [presets/sd15.csv](presets/sd15.csv).
 
-### SizeFromPresets (SDXL)
+### Size From Presets (SDXL)
 - Select image size presets for SDXL.
-- The width and height of the selected size will be output.
+- Output width and height of the selected preset.
+- Presets can be set from [presets/sdxl.csv](presets/sdxl.csv).
+
+### Empty Latent Image From Presets (SD1.5)
+- Select image size presets for SD1.5.
+- Output width and height of the selected preset.
+- Presets can be set from [presets/sd15.csv](presets/sd15.csv).
+
+### Empty Latent Image From Presets (SDXL)
+- Select image size presets for SDXL.
+- Output empty latent image, width and height of the selected preset.
 - Presets can be set from [presets/sdxl.csv](presets/sdxl.csv).
