@@ -29,3 +29,8 @@ git clone https://github.com/nkchocoai/ComfyUI-SizeFromPresets.git
 - SDXL用の画像サイズのプリセットを選択できます。
 - 選択したサイズの空のLatent Imageと幅と高さを出力します。
 - プリセットは [presets/sdxl.csv](presets/sdxl.csv) から設定できます。
+
+### Random ... From Presets (SD...)
+- CSVファイルに記載したプリセットからランダムに選びます。
+- Sizeの場合は、選ばれたサイズの幅と高さを出力します。
+- Latent Imageの場合は、選ばれたサイズの空のLatent Imageと幅と高さを出力します。

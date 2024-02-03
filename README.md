@@ -31,3 +31,8 @@ git clone https://github.com/nkchocoai/ComfyUI-SizeFromPresets.git
 - Select image size presets for SDXL.
 - Output empty latent image, width and height of the selected preset.
 - Presets can be set from [presets/sdxl.csv](presets/sdxl.csv).
+
+### Random ... From Presets (SD...)
+- Select randomly from the presets listed in the CSV file.
+- In the case of Size, output width and height of the selected preset.
+- In the case of Empty Latent Image, output empty latent image, width and height of the selected preset.
