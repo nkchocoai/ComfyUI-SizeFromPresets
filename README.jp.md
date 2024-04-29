@@ -34,3 +34,11 @@ git clone https://github.com/nkchocoai/ComfyUI-SizeFromPresets.git
 - CSVファイルに記載したプリセットからランダムに選びます。
 - Sizeの場合は、選ばれたサイズの幅と高さを出力します。
 - Latent Imageの場合は、選ばれたサイズの空のLatent Imageと幅と高さを出力します。
+
+### Get Similar Resolution
+- 入力した画像サイズに近い解像度をプリセットから選びます。
+- 選択したサイズの幅と高さを出力します。
+
+### Get Similar Resolution Empty Latent
+- 入力した画像サイズに近い解像度をプリセットから選びます。
+- 選択したサイズの空のLatent Imageと幅と高さを出力します。
