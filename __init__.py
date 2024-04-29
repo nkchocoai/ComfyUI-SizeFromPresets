@@ -1,5 +1,6 @@
 from .nodes.node import *
 from .nodes.random import *
+from .nodes.similar_resolution import *
 
 NODE_CLASS_MAPPINGS = {
     "SizeFromPresetsSD15": SizeFromPresetsSD15,
@@ -10,6 +11,8 @@ NODE_CLASS_MAPPINGS = {
     "RandomSizeFromPresetsSDXL": RandomSizeFromPresetsSDXL,
     "RandomEmptyLatentImageFromPresetsSD15": RandomEmptyLatentImageFromPresetsSD15,
     "RandomEmptyLatentImageFromPresetsSDXL": RandomEmptyLatentImageFromPresetsSDXL,
+    "GetSimilarResolution": GetSimilarResolution,
+    "GetSimilarResolutionEmptyLatent": GetSimilarResolutionEmptyLatent,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -21,4 +24,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "RandomSizeFromPresetsSDXL": "Random Size From Presets (SDXL)",
     "RandomEmptyLatentImageFromPresetsSD15": "Random Empty Latent Image From Presets (SD1.5)",
     "RandomEmptyLatentImageFromPresetsSDXL": "Random Empty Latent Image From Presets (SDXL)",
+    "GetSimilarResolution": "Get Similar Resolution",
+    "GetSimilarResolutionEmptyLatent": "Get Similar Resolution Empty Latent",
 }

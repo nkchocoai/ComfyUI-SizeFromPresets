@@ -24,7 +24,7 @@ git clone https://github.com/nkchocoai/ComfyUI-SizeFromPresets.git
 
 ### Empty Latent Image From Presets (SD1.5)
 - Select image size presets for SD1.5.
-- Output width and height of the selected preset.
+- Output empty latent image, width and height of the selected preset.
 - Presets can be set from [presets/sd15.csv](presets/sd15.csv).
 
 ### Empty Latent Image From Presets (SDXL)
@@ -36,3 +36,11 @@ git clone https://github.com/nkchocoai/ComfyUI-SizeFromPresets.git
 - Select randomly from the presets listed in the CSV file.
 - In the case of Size, output width and height of the selected preset.
 - In the case of Empty Latent Image, output empty latent image, width and height of the selected preset.
+
+### Get Similar Resolution
+- Select a resolution close to the input image size from the presets.
+- Output width and height of the selected preset.
+
+### Get Similar Resolution Empty Latent
+- Select a resolution close to the input image size from the presets.
+- Output empty latent image, width and height of the selected preset.
