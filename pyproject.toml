@@ -2,7 +2,7 @@
 name = "comfyui-sizefrompresets"
 description = "Add a node that outputs width and height of the size selected from the preset (.csv)."
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "LICENSE" }
 
 [project.urls]
 Repository = "https://github.com/nkchocoai/ComfyUI-SizeFromPresets"
